@@ -1,20 +1,13 @@
 # WP Movie Showcase
 
-**Contributors:** franciscogaray
-
-**Tags:** movies, omdb, gutenberg, block, imdb
-
-**Requires at least:** 6.4
-
-**Tested up to:** 6.5
-
-**Requires PHP:** 7.4
-
-**Stable tag:** 1.0.0
-
-**License:** GPLv2 or later
-
-**License URI:** [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html)
+* **Contributors:** franciscogaray
+* **Tags:** movies, omdb, gutenberg, block, imdb
+* **Requires at least:** 6.4
+* **Tested up to:** 6.5
+* **Requires PHP:** 7.4
+* **Stable tag:** 1.0.0
+* **License:** GPLv2 or later
+* **License URI:** [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html)
 
 Search and display movie details from the OMDb API using a Gutenberg block.
 
