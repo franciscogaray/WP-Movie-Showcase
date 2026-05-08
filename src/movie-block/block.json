@@ -1,0 +1,23 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "wp-movie-showcase/movie",
+    "title": "Movie Showcase",
+    "category": "widgets",
+    "icon": "video-alt2",
+    "description": "Search OMDb and display movie details.",
+    "textdomain": "wp-movie-showcase",
+    "supports": {
+        "html": false,
+        "align": ["wide", "full"]
+    },
+    "attributes": {
+        "searchTitle": { "type": "string",  "default": "" },
+        "movie":       { "type": "object",  "default": null },
+        "showPoster":  { "type": "boolean", "default": true }
+    },
+    "editorScript": "file:./index.js",
+    "editorStyle":  "file:./index.css",
+    "style":        "file:./style-index.css",
+    "render":       "file:./render.php"
+}
